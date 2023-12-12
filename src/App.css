@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff8e4;
+}
+
+body {
+  background-color: #ffde97; /* Replace with your desired color code or name */
+}
+
+#textBox {
+  resize: both;
+  width: 300px;
+}
+
+/* Style for table headers */
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for the delete confirmation dialog */
+.confirmation-dialog {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  z-index: 1; /* Ensure the dialog appears on top of other elements */
+}
+
+/* Style for buttons in the confirmation dialog */
+.confirmation-dialog button {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+/* Style for the "Add Review" link */
+.add-review-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style for the message */
+.message {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #28a745;
+}
+
+/* Style for the "Delete" button */
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Style for the "Edit" link */
+.edit-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style for the whole component */
+.list-media-container {
+  max-width: 800px;
+  margin: auto;
+}
